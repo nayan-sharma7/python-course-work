@@ -61,8 +61,20 @@ a= [1,2,3]
 print(id(a))
 f(a)
 
+#example:- 
+def f(l):
+    l.append(10)
+    l=[1,2,3,4]
+    print(id(l))
+    print(l)
+k= [1,2,3,4]
+print(id(k))
+f(k)
+
 
 #recursion function
+#a function which calls itself is called recursion function
+
 def factorial(n):
     if n == 1 or n == 0:
         return 1
