@@ -61,6 +61,16 @@ a= [1,2,3]
 print(id(a))
 f(a)
 
+#exxample -
+def f(a):
+    a.append(5)
+    print(id(a))
+    print(a)
+b=[1,2,3,4]
+print(id(b))
+f(b)
+
+
 #example:- 
 def f(l):
     l.append(10)
@@ -69,7 +79,7 @@ def f(l):
     print(l)
 k= [1,2,3,4]
 print(id(k))
-f(k)
+f(k)                    #output:- [1,2,3,4]
 
 
 #recursion function
@@ -80,4 +90,3 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)       #here in this line we are calling the same fucntion(factorial) again 
 print(factorial(5))
-
