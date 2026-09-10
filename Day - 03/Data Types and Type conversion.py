@@ -102,3 +102,6 @@ print(type(x))
 
 #explicit is done by us (user)
 #we define the data type we want to convert to.
+
+s0="123"
+print(s0)
