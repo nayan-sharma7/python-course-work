@@ -50,3 +50,5 @@ print(x,y)
 #python is dynamically typed language, so we can change the value of the variable at any time
 
 #by using del we can delete the variable from the memory
+z=100
+print(z)
