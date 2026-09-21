@@ -1,28 +1,28 @@
-# class pfs_66:
-#     python_falculty = "Nandini"
-#     def __init__(self,name,roll_no,marks):          # This is Constructor
-#         self.name = name
-#         self.roll_no = roll_no
-#         self.marks = marks
-#     def student_details(self,dept):
-#         self.dept = dept
-#         print(f"Name is {self.name}, Roll_no. is {self.roll_no}, and marks is {self.marks}, from dept of {self.dept}")
-#     def exam(self):
-#         print("exam")
-#     def attendance(self):
-#         print("attending the class")
-#     def assignment(self):
-#         print("assignment")
-#     def python_weeklyexam(self):
-#         print("python Weekly Exam")
-# student1 = pfs_66("dileep",202,435)
-# student1.exam()
-# student1.assignment()
-# student1.student_details("PFS-66")
-# student1.attendance()
-# print()
-# student2 = pfs_66("rajesh",203,897)
-# student2.student_details("PFS-66")
+class pfs_66:
+    python_falculty = "Nandini"
+    def __init__(self,name,roll_no,marks):          # This is Constructor
+        self.name = name
+        self.roll_no = roll_no
+        self.marks = marks
+    def student_details(self,dept):
+        self.dept = dept
+        print(f"Name is {self.name}, Roll_no. is {self.roll_no}, and marks is {self.marks}, from dept of {self.dept}")
+    def exam(self):
+        print("exam")
+    def attendance(self):
+        print("attending the class")
+    def assignment(self):
+        print("assignment")
+    def python_weeklyexam(self):
+        print("python Weekly Exam")
+student1 = pfs_66("dileep",202,435)
+student1.exam()
+student1.assignment()
+student1.student_details("PFS-66")
+student1.attendance()
+print()
+student2 = pfs_66("rajesh",203,897)
+student2.student_details("PFS-66")
 
 class employee:
     def __init__(self,name,id,salary,age):
