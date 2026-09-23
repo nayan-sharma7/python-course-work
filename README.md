@@ -1,4 +1,4 @@
-# 🐍 Python Course Work
+#  Python Course Work
 
 Welcome to my **Python Course Work** repository!
 
