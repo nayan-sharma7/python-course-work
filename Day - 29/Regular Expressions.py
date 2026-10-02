@@ -98,3 +98,11 @@
 #     print (URL)
 # else:
 #     print("Invalid URL")
+
+import re 
+prices = input()
+p = r"\$,\d{1,5}"
+if re.fullmatch(p, prices):
+    print("Valid price format")
+else:
+    print("Invalid price format")
