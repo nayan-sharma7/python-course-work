@@ -106,3 +106,10 @@ if re.fullmatch(p, prices):
     print("Valid price format")
 else:
     print("Invalid price format")
+
+movie_ticket = input()
+res = r"\w+\s\d{1,2}\s\w+\s\d{4}\s\d{1,2}:\d{2}\s[AP]M"
+if re.fullmatch(res, movie_ticket):
+    print("Valid movie ticket format")
+else:
+    print("Invalid movie ticket format")
